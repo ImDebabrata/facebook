@@ -148,3 +148,27 @@ div .bar {
         align-items: center;
     }
 }
+@media only screen and (max-width:450px) {
+    .tag {
+        font-size: 22px;
+        width: 90%;
+        text-align: center;
+    }
+    .box {
+        width: 90%;
+        /* margin: auto; */
+    }
+    div .bar {
+        width: 90%;
+    }
+    div button {
+        width: 50%;
+    }
+    .logo {
+        width: 100%;
+    }
+    #fblog {
+        width: 100%;
+        height: auto;
+    }
+}
