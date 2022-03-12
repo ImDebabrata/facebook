@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+}
+.container {
+    height: auto;
+    display: flex;
+}
+/* .left {
+    height: 100vh;
+    width: 50%;
+}
+.right {
+    height:100vh;
+    width: 50%;
+} */
+#fblog {
+    height: 100px;
+    width: auto;
+    padding: 0;
+    margin-left: -29px;
+}
+.logo {
+    float: right;
+    position: relative;
+    margin-top: 180px;
+    margin-left: 150px;
+}
+.tag  {
+    font-size: 28px;
+    width: 500px;
+}
+/* .leftcon {
+    width: 100%;
+    height: 100vh;
+} */
+.box {
+    position:relative;
+    float: left;
+    height: 330px;
+    width: 400px;
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.308);
+    border-radius: 7px;
+    margin-top:9rem;
+    margin-left: 5rem;
+}
+form {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+input {
+    height: 50px;
+    border: 1px solid rgba(128, 128, 128, 0.425);
+    border-radius: 7px;
+    padding:2px 20px;
+    margin: 5px 10px;
+    font-size: 18px;
+    outline: none;
+}
+input:focus {
+    border: 1px solid #1877f2;
+    box-shadow: 0px 0px 3px #1877f2;
+}
+#login {
+    background: hsl(214, 54%, 49%);
+    color: rgb(236, 236, 236);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+#login:hover {
+    background: #1877f2;
+    color: white;
+}
+.center{
+    text-align: center;
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+    color: #1877f2;
+}
+a:hover {
+    text-decoration: underline;
+}
+button {
+    background: #42b72a;
+    height: 43px;
+    width: 200px;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin: auto;
+}
+button:hover {
+    background: #3a9c26;
+}
+div .bar {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+    width: 380px;
+    margin:20px auto;
+}
+.page {
+    margin-top: 43px;
+    color: black;
+}
+@media only screen and (max-width:1075px) {
+    .tag {
+        font-size: 24px;
+        width: auto;
+    }
+    .logo {
+        margin-left: 20px;
+    }
+}
+@media only screen and (max-width:1120px) {
+    .box {
+        float: right;
+    }
+    .tag {
+        width: auto;
+    }
+}
+@media only screen and (max-width:800px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo {
+        margin: 0px auto auto auto;
+        width: 400px;
+    }
+    #fblog {
+        display: block;
+        margin:auto;
+    }
+    .box {
+        margin: 30px auto auto auto;
+        align-items: center;
+    }
+}
